@@ -32,7 +32,7 @@ export function Robot({ ...props }: RobotProps) {
     return () => window.removeEventListener('mousemove', handleMouseMove)
   }, [])
 
-  useFrame((state, delta) => {
+  useFrame((_state,delta) => {
     if (group.current) {
       const mouseX = mousePos.x * 2.0
       const mouseY = mousePos.y * 1.2

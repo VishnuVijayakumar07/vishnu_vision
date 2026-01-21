@@ -1,4 +1,3 @@
-import React from "react";
 import Home from "./Home";
 import vishnu from "../../public/image/vishnu.png";
 
